@@ -1,0 +1,88 @@
+.Loans{
+    margin-top: 8%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.card {
+    position: relative;
+    width: 500px;
+    background-color: #e2e3e7b5;
+    border-radius: 0.75em;
+    cursor: pointer;
+    display: flex;
+    border: 1.5px solid #ffffff;
+  }
+  
+  .card:hover {
+    background-color: #d3ddf1;
+    border: 1.5px solid #1677ff;
+  }
+  
+  .container {
+    margin-top: 1.25em;
+    margin-bottom: 1.375em;
+    margin-left: 1.375em;
+    margin-right: 2em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .h1{
+    text-align: center;
+  }
+
+  .text-wrap {
+    display: flex;
+    gap: 1%;
+    flex-direction: column;
+    color: #333;
+  }
+  
+  .time {
+    margin-top: -5%;
+    font-size: 0.875em;
+    color: #777;
+  }
+  
+  .button-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    /* align-items: center; */
+  }
+  
+  .secondary-cta {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .primary-cta {
+    font-size: 15px;
+    background-color: transparent;
+    font-weight: 600;
+    color: #1677ff;
+    border: none;
+    border-radius: 1.5em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    text-decoration: underline;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875em;
+  }
+  

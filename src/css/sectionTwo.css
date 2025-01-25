@@ -1,0 +1,136 @@
+.sec2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 2px 3px 3px black;
+}
+.sec2 .sec2main{
+    width: 70%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.sec2 .sec2main .img{
+    width: 50%;
+    height: 100%;
+}
+.sec2 .sec2main .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.sec2 .sec2main .right-two{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.sec2 .sec2main .right-two .firstDiv{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.sec2 .sec2main .right-two .firstDiv h1{
+    color: rgb(55, 53, 53);
+    font-size: 44px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0.5px 0.7px 0.7px black;
+    margin-top: 2%;
+}
+.sec2 .sec2main .right-two .firstDiv h2{
+    position: absolute;
+    color: rgb(55, 53, 53);
+    text-shadow: 0.5px 0.7px 0.7px black;
+    font-size: 30px;
+    bottom: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sec2 .sec2main .right-two .sec2Btn{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 35px;
+}
+.sec2 .sec2main .right-two .sec2Btn .btnDiv1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 25px;
+}
+.sec2 .sec2main .right-two .sec2Btn .btnDiv1 .btnLinks{
+    text-decoration: none;
+}
+.sec2 .sec2main .right-two .sec2Btn .btnDiv1 .btnLinks button{
+    cursor: pointer;
+}
+.sec2 .sec2main .right-two .sec2Btn .btnDiv1 .btnLinks .btn1{
+    width: 100px;
+    height: 35px;
+    border: 0;   
+    border-radius: 35px;
+    background-color: rgb(233, 154, 125);
+    color: white;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.sec2 .sec2main .right-two .sec2Btn .btnDiv1 .btnLinks .btn2{
+    width: 100px;
+    height: 35px;
+    border: 0;   
+    border-radius: 25px;
+    background-color: rgb(136, 233, 125);
+    color: white;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.sec2 .sec2main .right-two .sec2Btn .btnDiv1 .btnLinks .btn1:hover{
+    background-color: rgb(136, 233, 125);
+}
+.sec2 .sec2main .right-two .sec2Btn .btnDiv1 .btnLinks .btn2:hover{
+    background-color: rgb(233, 154, 125);
+}
+.sec2 .sec2main .right-two .sec2Btn .btnDiv2 .btnLinks{
+    text-decoration: none;
+}
+.sec2 .sec2main .right-two .sec2Btn .btnDiv2 .btnLinks .btn3{
+    width: 100px;
+    height: 35px;
+    border: 0;   
+    border-radius: 25px;
+    background-color: rgb(233, 154, 125);
+    color: white;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer;
+}

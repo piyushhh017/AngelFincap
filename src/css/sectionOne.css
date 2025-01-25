@@ -1,0 +1,61 @@
+.sec1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 7%;
+}
+.sec1 .left-one{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.sec1 .left-one .h1{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.sec1 .left-one .h1 .sec1h1{
+    font-size: 52px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: orangered;
+}
+.sec1 .left-one .h1 span{
+    width: 58px;
+    position: absolute;
+    left: 32.5%;
+    top: 48%;
+    border: 3px solid orangered;
+}
+.sec1 .left-one .para1{
+    padding: 10%;
+}
+.sec1 .left-one .para1 p{
+    color: rgb(161, 154, 154);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sec1 .right-one{
+    position: relative;
+    background-color: white;
+    width: 30%;
+    height: 80%;
+}
+.sec1 .right-one .img{
+    width: 100%;
+    height: 100%;
+}
+.sec1 .right-one .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
